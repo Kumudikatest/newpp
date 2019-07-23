@@ -71,7 +71,9 @@
         "type": "DIRECTORY",
         "isDirectory": true,
         "children": [
-          "e7a30d73-873f-45bc-907e-c20d2917c91e"
+          "e7a30d73-873f-45bc-907e-c20d2917c91e",
+          "b51261a0-3351-430f-a106-5cb0ee3fa4e4",
+          "111e2bee-f90e-4aac-8aec-8cca358ba4c8"
         ],
         "isRemovable": true,
         "filePath": "newpp/sub27"
@@ -109,6 +111,28 @@
         "isRemovable": true,
         "filePath": "newpp/sub27/p27.py",
         "code": "def mul(a,b):\r\n  return a * b"
+      },
+      "b51261a0-3351-430f-a106-5cb0ee3fa4e4": {
+        "id": "b51261a0-3351-430f-a106-5cb0ee3fa4e4",
+        "parent": "ff9727e5-2149-46d1-a066-f9e13e8000e4",
+        "name": "p27new.py",
+        "type": "PYTHON_FILE",
+        "isDirectory": false,
+        "children": [],
+        "isRemovable": true,
+        "filePath": "newpp/sub27/p27new.py",
+        "code": ""
+      },
+      "111e2bee-f90e-4aac-8aec-8cca358ba4c8": {
+        "id": "111e2bee-f90e-4aac-8aec-8cca358ba4c8",
+        "parent": "ff9727e5-2149-46d1-a066-f9e13e8000e4",
+        "name": "__init__.py",
+        "type": "PYTHON_FILE",
+        "isDirectory": false,
+        "children": [],
+        "isRemovable": true,
+        "filePath": "newpp/sub27/__init__.py",
+        "code": ""
       }
     },
     "deletedFiles": [],
@@ -117,9 +141,10 @@
       "d1d82e41-b783-46a1-9ad8-29de80a1fc3b",
       "226ce6c5-e62b-4c38-a2a5-fba88760b6d4",
       "a7c6c743-68ef-42b1-96d9-a4677714c3bc",
-      "e7a30d73-873f-45bc-907e-c20d2917c91e"
+      "e7a30d73-873f-45bc-907e-c20d2917c91e",
+      "b51261a0-3351-430f-a106-5cb0ee3fa4e4"
     ],
-    "currentFileId": "d1d82e41-b783-46a1-9ad8-29de80a1fc3b",
+    "currentFileId": "b51261a0-3351-430f-a106-5cb0ee3fa4e4",
     "resources": {
       "apigusEast1TestAPIget": {
         "name": "apigusEast1TestAPIget",
@@ -242,7 +267,7 @@
     "projectRegion": "us-east-1",
     "platform": "AWS",
     "platformRegions": {},
-    "lastSave": 1563867514622
+    "lastSave": 1563868373801
   },
   "VCS_STATE": {
     "provider": "GitHub",
