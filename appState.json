@@ -72,8 +72,7 @@
         "isDirectory": true,
         "children": [
           "e7a30d73-873f-45bc-907e-c20d2917c91e",
-          "b51261a0-3351-430f-a106-5cb0ee3fa4e4",
-          "111e2bee-f90e-4aac-8aec-8cca358ba4c8"
+          "b51261a0-3351-430f-a106-5cb0ee3fa4e4"
         ],
         "isRemovable": true,
         "filePath": "newpp/sub27"
@@ -122,20 +121,11 @@
         "isRemovable": true,
         "filePath": "newpp/sub27/p27new.py",
         "code": ""
-      },
-      "111e2bee-f90e-4aac-8aec-8cca358ba4c8": {
-        "id": "111e2bee-f90e-4aac-8aec-8cca358ba4c8",
-        "parent": "ff9727e5-2149-46d1-a066-f9e13e8000e4",
-        "name": "__init__.py",
-        "type": "PYTHON_FILE",
-        "isDirectory": false,
-        "children": [],
-        "isRemovable": true,
-        "filePath": "newpp/sub27/__init__.py",
-        "code": ""
       }
     },
-    "deletedFiles": [],
+    "deletedFiles": [
+      "newpp/sub27/__init__.py"
+    ],
     "rootNode": "2fd2fb3f-d612-4acd-9bc3-d5b5bfa40c0f",
     "openFiles": [
       "d1d82e41-b783-46a1-9ad8-29de80a1fc3b",
@@ -144,7 +134,7 @@
       "e7a30d73-873f-45bc-907e-c20d2917c91e",
       "b51261a0-3351-430f-a106-5cb0ee3fa4e4"
     ],
-    "currentFileId": "b51261a0-3351-430f-a106-5cb0ee3fa4e4",
+    "currentFileId": "d1d82e41-b783-46a1-9ad8-29de80a1fc3b",
     "resources": {
       "apigusEast1TestAPIget": {
         "name": "apigusEast1TestAPIget",
@@ -267,7 +257,7 @@
     "projectRegion": "us-east-1",
     "platform": "AWS",
     "platformRegions": {},
-    "lastSave": 1563868373801
+    "lastSave": 1563868493555
   },
   "VCS_STATE": {
     "provider": "GitHub",
