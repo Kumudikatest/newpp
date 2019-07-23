@@ -1,0 +1,259 @@
+{
+  "EDITOR_STATE": {
+    "allProjectFiles": {
+      "2fd2fb3f-d612-4acd-9bc3-d5b5bfa40c0f": {
+        "id": "2fd2fb3f-d612-4acd-9bc3-d5b5bfa40c0f",
+        "parent": null,
+        "name": "newpp",
+        "type": "DIRECTORY",
+        "isDirectory": true,
+        "children": [
+          "d1d82e41-b783-46a1-9ad8-29de80a1fc3b",
+          "226ce6c5-e62b-4c38-a2a5-fba88760b6d4",
+          "ff9727e5-2149-46d1-a066-f9e13e8000e4",
+          "aac85e9e-af07-434b-9e9f-33718b851c8f"
+        ],
+        "isRemovable": false,
+        "filePath": "newpp"
+      },
+      "d1d82e41-b783-46a1-9ad8-29de80a1fc3b": {
+        "id": "d1d82e41-b783-46a1-9ad8-29de80a1fc3b",
+        "parent": "2fd2fb3f-d612-4acd-9bc3-d5b5bfa40c0f",
+        "name": "p27.py",
+        "type": "PYTHON_LAMBDA",
+        "isDirectory": false,
+        "children": [],
+        "isRemovable": true,
+        "filePath": "newpp/p27.py",
+        "code": "from sub27.p27 import mul\n\ndef handler(event, context):\n\n    return {\"message\": add(3,3)}\n",
+        "config": {
+          "runtime": "python2.7",
+          "handler": "handler",
+          "timeout": 60,
+          "memory": 128,
+          "layers": []
+        },
+        "triggers": [
+          {
+            "resourceName": "apigusEast1TestAPIget",
+            "config": {}
+          }
+        ]
+      },
+      "226ce6c5-e62b-4c38-a2a5-fba88760b6d4": {
+        "id": "226ce6c5-e62b-4c38-a2a5-fba88760b6d4",
+        "parent": "2fd2fb3f-d612-4acd-9bc3-d5b5bfa40c0f",
+        "name": "p36.py",
+        "type": "PYTHON_LAMBDA",
+        "isDirectory": false,
+        "children": [],
+        "isRemovable": true,
+        "filePath": "newpp/p36.py",
+        "code": "from sub36.p36 import div\n\ndef handler(event, context):\n   \n    return {\"message\": div(3,3)}\n",
+        "config": {
+          "runtime": "python3.6",
+          "handler": "handler",
+          "timeout": 60,
+          "memory": 128,
+          "layers": []
+        },
+        "triggers": [
+          {
+            "resourceName": "apigusEast1496get",
+            "config": {}
+          }
+        ]
+      },
+      "ff9727e5-2149-46d1-a066-f9e13e8000e4": {
+        "id": "ff9727e5-2149-46d1-a066-f9e13e8000e4",
+        "parent": "2fd2fb3f-d612-4acd-9bc3-d5b5bfa40c0f",
+        "name": "sub27",
+        "type": "DIRECTORY",
+        "isDirectory": true,
+        "children": [
+          "e7a30d73-873f-45bc-907e-c20d2917c91e"
+        ],
+        "isRemovable": true,
+        "filePath": "newpp/sub27"
+      },
+      "aac85e9e-af07-434b-9e9f-33718b851c8f": {
+        "id": "aac85e9e-af07-434b-9e9f-33718b851c8f",
+        "parent": "2fd2fb3f-d612-4acd-9bc3-d5b5bfa40c0f",
+        "name": "sub36",
+        "type": "DIRECTORY",
+        "isDirectory": true,
+        "children": [
+          "a7c6c743-68ef-42b1-96d9-a4677714c3bc"
+        ],
+        "isRemovable": true,
+        "filePath": "newpp/sub36"
+      },
+      "a7c6c743-68ef-42b1-96d9-a4677714c3bc": {
+        "id": "a7c6c743-68ef-42b1-96d9-a4677714c3bc",
+        "parent": "aac85e9e-af07-434b-9e9f-33718b851c8f",
+        "name": "p36.py",
+        "type": "PYTHON_FILE",
+        "isDirectory": false,
+        "children": [],
+        "isRemovable": true,
+        "filePath": "newpp/sub36/p36.py",
+        "code": "def div(a,b):\r\n  return a / b\r\n"
+      },
+      "e7a30d73-873f-45bc-907e-c20d2917c91e": {
+        "id": "e7a30d73-873f-45bc-907e-c20d2917c91e",
+        "parent": "ff9727e5-2149-46d1-a066-f9e13e8000e4",
+        "name": "p27.py",
+        "type": "PYTHON_FILE",
+        "isDirectory": false,
+        "children": [],
+        "isRemovable": true,
+        "filePath": "newpp/sub27/p27.py",
+        "code": "def mul(a,b):\r\n  return a * b"
+      }
+    },
+    "deletedFiles": [
+      "newpp/__init__.py",
+      "newpp/sub36/__init__.py",
+      "newpp/sub27/__init__.py",
+      "newpp/lambda.js"
+    ],
+    "rootNode": "2fd2fb3f-d612-4acd-9bc3-d5b5bfa40c0f",
+    "openFiles": [
+      "d1d82e41-b783-46a1-9ad8-29de80a1fc3b",
+      "226ce6c5-e62b-4c38-a2a5-fba88760b6d4",
+      "a7c6c743-68ef-42b1-96d9-a4677714c3bc",
+      "e7a30d73-873f-45bc-907e-c20d2917c91e"
+    ],
+    "currentFileId": "a7c6c743-68ef-42b1-96d9-a4677714c3bc",
+    "resources": {
+      "apigusEast1TestAPIget": {
+        "name": "apigusEast1TestAPIget",
+        "type": "API_GATEWAY",
+        "config": {
+          "selectedRegion": "us-east-1",
+          "apiMode": 1,
+          "apiName": "TestAPI",
+          "apiId": "0itznun7w3",
+          "endpointType": "EDGE",
+          "rootResourceId": "h2lelj6j7k",
+          "existingResources": {
+            "/hiru/test": "2b8zt0",
+            "/testPathWithSlash": "2rkw74",
+            "/hiru": "3nc52b",
+            "/hiru/sample": "4226gg",
+            "/hiru/sqstest": "88gr2y",
+            "/MyLambda": "98nqbj",
+            "/": "h2lelj6j7k",
+            "/testWithSlash": "q4m4g1",
+            "/testtwospeciallambda": "q4szm3",
+            "/testtwospecialkumutest": "wey3lk",
+            "/hiru/snscheck": "wok1ku"
+          },
+          "resourceMode": 1,
+          "resourcePath": "/",
+          "resourceName": "",
+          "resourceId": "h2lelj6j7k",
+          "restMethod": "GET",
+          "proxyIntegration": false,
+          "enableCORS": false,
+          "stageMode": 1,
+          "stageName": "test",
+          "stageDeploymentId": "0kvwb0",
+          "mode": 1
+        }
+      },
+      "apigusEast1496get": {
+        "name": "apigusEast1496get",
+        "type": "API_GATEWAY",
+        "config": {
+          "selectedRegion": "us-east-1",
+          "apiMode": 1,
+          "apiName": "496",
+          "apiId": "vhun1ru9cd",
+          "endpointType": "EDGE",
+          "rootResourceId": "yr36hrjzfa",
+          "existingResources": {
+            "/496": "t3mbwy",
+            "/": "yr36hrjzfa"
+          },
+          "resourceMode": 1,
+          "resourcePath": "/",
+          "resourceName": "",
+          "resourceId": "yr36hrjzfa",
+          "restMethod": "GET",
+          "proxyIntegration": false,
+          "enableCORS": false,
+          "stageMode": 1,
+          "stageName": "496",
+          "stageDeploymentId": "dgll6y",
+          "mode": 1
+        }
+      }
+    },
+    "customTemplate": {
+      "dialect": null,
+      "definitions": {}
+    },
+    "envVariables": [
+      {
+        "lambdaId": "all",
+        "varKey": "SIGMA_AWS_ACC_ID",
+        "varValue": null,
+        "shouldPersist": false,
+        "displayOnly": false,
+        "editable": false
+      },
+      {
+        "lambdaId": "d1d82e41-b783-46a1-9ad8-29de80a1fc3b",
+        "varKey": "PYTHONPATH",
+        "varValue": "/var/runtime:/var/task/newpp",
+        "shouldPersist": true,
+        "displayOnly": false,
+        "editable": true
+      },
+      {
+        "lambdaId": "226ce6c5-e62b-4c38-a2a5-fba88760b6d4",
+        "varKey": "PYTHONPATH",
+        "varValue": "/var/runtime:/var/task/newpp",
+        "shouldPersist": true,
+        "displayOnly": false,
+        "editable": true
+      },
+      {
+        "lambdaId": "292373e2-c855-4358-9992-1c12959799fe",
+        "varKey": "PYTHONPATH",
+        "varValue": "/var/runtime:/var/task/newpp/sub27",
+        "shouldPersist": true,
+        "displayOnly": false,
+        "editable": true
+      },
+      {
+        "lambdaId": "31dfadb9-76e2-421f-a372-4c77f3e2c9b4",
+        "varKey": "PYTHONPATH",
+        "varValue": "/var/runtime:/var/task/newpp/sub36",
+        "shouldPersist": true,
+        "displayOnly": false,
+        "editable": true
+      }
+    ],
+    "packageJSON": {
+      "dependencies": {}
+    }
+  },
+  "PROJECT_META": {
+    "projectName": "newpp",
+    "projectDescription": "",
+    "projectVersion": "1.0.0",
+    "projectRegion": "us-east-1",
+    "platform": "AWS",
+    "platformRegions": {},
+    "lastSave": 1563867180953
+  },
+  "VCS_STATE": {
+    "provider": "GitHub",
+    "repo": {
+      "name": "newpp",
+      "url": "https://github.com/Kumudikatest/newpp"
+    }
+  }
+}
